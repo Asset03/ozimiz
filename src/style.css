@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid #d9d9d9;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::file-selector-button {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: initial;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    background: #f2f5f6;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
